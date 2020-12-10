@@ -1,0 +1,66 @@
+{
+
+  /***
+  * Attributes
+  ******/
+
+  "order_id" : "InvoiceNo",
+  "product_id": "StockCode",
+  "product" : "Description",
+  "prod_qnty" : "Quantity",
+  "order_date" : "InvoiceDate",
+  "unit_price" : "UnitPrice",
+  "customer_id" : "CustomerID",
+
+  /****
+  * Data set paths
+  ****/
+
+  "inputData" : "/media/acer/7DC832E057A5BDB1/JMJTL/Tomslabs/Datasets/Retail",
+  "orderData" : "/media/acer/7DC832E057A5BDB1/JMJTL/Tomslabs/Datasets/Retail/OnlineRetail.csv",
+  "orderProducts" : "/media/acer/7DC832E057A5BDB1/JMJTL/Tomslabs/Datasets/custProfiling/order_products__prior.csv",
+  "products" : "/media/acer/7DC832E057A5BDB1/JMJTL/Tomslabs/Datasets/custProfiling/products.csv",
+  "output" : "/media/acer/7DC832E057A5BDB1/JMJTL/Tomslabs/bizportfolio/Hyperpersonalization/output",
+  "custDetails" : "output/custDetails.pkl",
+  "users" : "output/users.pkl",
+  "prodBaskets" : "output/prodBaskets.pkl",
+  "matrixPath" : "output/Matrices_custprod/",
+  "propensity_mats" : "output/Matrices_propensity/",
+  "similarity_mats" : "output/Matrices_similarity/",
+  "association_dic" : "output/Matrices_association/assocDic.pkl",
+  "custDict" : "output/custPersonalisation.pkl",
+  "custDict_update" : "output/custPersonalisation_upd.pkl",
+
+
+  /****
+  * Parameters for recommendation
+  ******/
+
+  "neighbors" : 20,
+  "neighbor_prods" : 25,
+  "prod_reco" : 50,
+
+  /******
+  * Customer ID to get CLV details
+  ********/
+
+  "custID" : 16098.0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
